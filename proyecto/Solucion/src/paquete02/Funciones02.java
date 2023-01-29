@@ -34,6 +34,7 @@ public class Funciones02 {
         telefono = entrada.nextInt();
         System.out.println("Ingrese su edad:");
         edad = entrada.nextInt();
+        entrada.nextLine();
         mensaje = String.format("""
                                 \nCuenta creada con los siguientes datos
                                 Nombre de usuario: %s
@@ -65,6 +66,7 @@ public class Funciones02 {
         hobby = entrada.nextLine();
         System.out.println("Ingrese su numero de telefono:");
         telefono = entrada.nextInt();
+        entrada.nextLine();
         mensaje = String.format("""
                                 \nCuenta creada con los siguientes datos
                                 Nombre de usuario: %s
@@ -95,6 +97,7 @@ public class Funciones02 {
         mail = entrada.nextLine();
         System.out.println("Ingrese su edad:");
         edad = entrada.nextInt();
+        entrada.nextLine();
         mensaje = String.format("""
                                 \nCuenta creada con los siguientes datos
                                 Nombre de usuario: %s                                               
@@ -116,6 +119,7 @@ public class Funciones02 {
         nombreUsuario = entrada.nextLine();
         System.out.println("Ingrese su correo electronico:");
         mail = entrada.nextLine();
+        entrada.nextLine();
         mensaje = String.format("""
                                 \nCuenta creada con los siguientes datos
                                 Nombre de usuario: %s
