@@ -45,29 +45,35 @@ public class Solucion {
 
             if (opcion == 1) {
                 System.out.println(Funciones.crearFacebook());
+                contador = contador + 1;
             }
             if (opcion == 2) {
                 Funciones.crearTwitter();
+                contador = contador + 1;
             }
             if (opcion == 3) {
                 System.out.println(Funciones.crearWhatsapp());
+                contador = contador + 1;
             }
             if (opcion == 4) {
                 Funciones02.crearTelegram();
+                contador = contador + 1;
             }
             if (opcion == 5) {
                 System.out.println(Funciones02.crearSignal());
+                contador = contador + 1;
             }
             if (opcion == 6) {
                 Funciones02.crearInstagram();
+                contador = contador + 1;
             }
             if (opcion == 7) {
                 System.out.println(Funciones02.crearFlickr());
+                contador = contador + 1;
             }
             if (opcion < 1 || 7 < opcion) {
-                System.out.println("Error en opcion seleccionada");
+                System.out.println("\nError en opcion seleccionada");
             }
-            contador = contador + 1;
             System.out.println("Ingrese 1 para salir o 2 para crear mas cuentas\n");
             salida = entrada.nextInt();
             if (salida == 1) {

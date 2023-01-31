@@ -21,5 +21,8 @@ public class obtenerMensaje {
         if (a >= 16) {
             System.out.println(mensajeFinal[2]);
         }
+        if (a == 0) {
+            System.out.println("Campaña sin influencia");
+        }
     }
 }

@@ -33,12 +33,14 @@ public class Funciones {
         edad = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ---------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
                                 Edad: %s
                                 Pais: %s
                                 Ciudad: %s
-                                Correo electronico: %s\n
+                                Correo electronico: %s
+                                ----------------------------------------
                                 """, nombre, edad, pais, ciudad, mail);
         return mensaje;
     }
@@ -68,14 +70,16 @@ public class Funciones {
         edad = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ---------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
                                 Nombres: %s
                                 Apellidos: %s
                                 Edad: %s
                                 Pais: %s
                                 Ciudad: %s
-                                Correo electronico: %s\n
+                                Correo electronico: %s
+                                ---------------------------------------
                                 """, nombreUsuario, nombres,
                 apellidos, edad, pais, ciudad,
                 mail);
@@ -98,16 +102,18 @@ public class Funciones {
         ciudad = entrada.nextLine();
         System.out.println("Ingrese su numero de telefono:");
         telefono = entrada.nextInt();
-        System.out.println("Ingrese su numero de telefono:");
+        System.out.println("Ingrese su edad:");
         edad = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ---------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
                                 Edad: %s
                                 Pais: %s
                                 Ciudad: %s
-                                Numero de telefono: %s\n
+                                Numero de telefono: %s
+                                -----------------------------------------
                                 """, nombre, edad, pais, ciudad, telefono);
         return mensaje;
     }

@@ -36,13 +36,15 @@ public class Funciones02 {
         edad = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
                                 Numero de telefono: %s                      
                                 Ciudad: %s
                                 Pais: %s
                                 Edad: %s
-                                Area de interes: %s\n
+                                Area de interes: %s
+                                ---------------------------------------
                                 """, nombreUsuario, telefono,
                 ciudad, pais, edad, areaInteres);
 
@@ -68,12 +70,14 @@ public class Funciones02 {
         telefono = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ----------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
                                 Numero de telefono: %s                      
                                 Ciudad: %s
                                 Pais: %s
-                                Hobby principal: %s\n
+                                Hobby principal: %s
+                                ----------------------------------------
                                 """, nombreUsuario, telefono,
                 ciudad, pais, hobby);
 
@@ -99,12 +103,14 @@ public class Funciones02 {
         edad = entrada.nextInt();
         entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ---------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s                                               
                                 Ciudad: %s
                                 Pais: %s
                                 Edad: %s
-                                Correo electronico: %s\n
+                                Correo electronico: %s
+                                ----------------------------------------
                                 """, nombreUsuario,
                 ciudad, pais, edad, mail);
 
@@ -119,15 +125,15 @@ public class Funciones02 {
         nombreUsuario = entrada.nextLine();
         System.out.println("Ingrese su correo electronico:");
         mail = entrada.nextLine();
-        entrada.nextLine();
         mensaje = String.format("""
-                                \nCuenta creada con los siguientes datos
+                                ---------------------------------------
+                                Cuenta creada con los siguientes datos
                                 Nombre de usuario: %s
-                                Correo electronico: %s\n
+                                Correo electronico: %s
+                                ----------------------------------------
                                 """,
                 nombreUsuario, mail);
 
         return (mensaje);
     }
-
 }
